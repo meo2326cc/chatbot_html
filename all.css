@@ -1,0 +1,344 @@
+/*NORMAL SETTING*/
+.container {
+  max-width: 1160px;
+  margin: auto;
+}
+
+h1 {
+  font: bold 48px Noto Sans TC;
+  padding: 16px 0px;
+}
+
+h2 {
+  font: bold 32px Noto Sans TC;
+  text-align: center;
+  padding: 16px 0px;
+}
+
+h3 {
+  font: bold 24px Noto Sans TC;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 16px 0px;
+}
+
+p {
+  font: normal 20px Noto Sans TC;
+}
+
+.txt-blue {
+  color: #56C4C5;
+  font: normal 18px Noto Sans TC;
+}
+
+.mauto {
+  padding: 0px 77px;
+}
+
+.pd24 {
+  padding: 24px 0px;
+}
+
+.pd48 {
+  padding: 48px 0px;
+}
+
+.txtcenter {
+  text-align: center;
+}
+
+.txtright {
+  text-align: right;
+}
+
+hr {
+  color: #F5F5F5;
+}
+
+.display-inline {
+  display: inline-block;
+}
+
+/*RWD*/
+@media (max-width: 640px) {
+  h1 {
+    font: bold 32px Noto Sans TC;
+    padding: 16px 0px;
+  }
+
+  h2 {
+    font: bold 24px Noto Sans TC;
+    text-align: center;
+    padding: 16px 0px;
+  }
+}
+.headerbgc {
+  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/53d3c0b0e4d2885789ac1fcb666e427365a39207/chatTalker_images/home.svg"), url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/53d3c0b0e4d2885789ac1fcb666e427365a39207/chatTalker_images/bg_home.svg");
+  background-repeat: no-repeat;
+  background-position: right, right bottom;
+}
+.headerbgc .blueball {
+  width: 180px;
+  height: 361px;
+  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/53d3c0b0e4d2885789ac1fcb666e427365a39207/chatTalker_images/ball01.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  position: absolute;
+  left: 0px;
+  z-index: -1;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 12px;
+}
+.nav img {
+  width: 218px;
+}
+.nav button {
+  height: 40px;
+  width: 128px;
+  background-color: #FF5D50;
+  color: white;
+  border: none;
+  border-radius: 22px;
+  font: normal 16px Noto Sans TC;
+}
+.nav button:hover {
+  background: #ff756a;
+}
+
+.title {
+  padding: 158px 12px;
+}
+
+/*header RWD*/
+@media (max-width: 640px) {
+  .headerbgc {
+    background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/53d3c0b0e4d2885789ac1fcb666e427365a39207/chatTalker_images/home.svg"), url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/53d3c0b0e4d2885789ac1fcb666e427365a39207/chatTalker_images/bg_home_sm.svg");
+    background-repeat: no-repeat;
+    background-position: bottom, bottom;
+    background-size: 80%;
+  }
+  .headerbgc img {
+    width: 131px;
+  }
+
+  .nav {
+    background-color: #fff;
+    border-bottom: 3px solid #F5CA52;
+  }
+
+  .title {
+    padding: 0px 0px 600px 12px;
+  }
+}
+.socialpage {
+  padding: 100px 12px;
+}
+.socialpage li {
+  padding: 24px;
+}
+.socialpage .socicons {
+  display: flex;
+  justify-content: space-between;
+}
+.socialpage .socicons img {
+  display: block;
+  margin: auto;
+  max-width: 30%;
+}
+.socialpage .socicons p {
+  font: normal 16px Noto Sans TC;
+  color: #747474;
+  text-align: center;
+}
+
+/*socialpage RWD*/
+@media (max-width: 640px) {
+  .socicons {
+    flex-wrap: wrap;
+  }
+}
+.items .character {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+.items li {
+  border-radius: 12px;
+  box-shadow: 0px 2px 10px #dedede;
+  margin: 8px;
+  position: relative;
+}
+.items .roleimg {
+  width: 100%;
+  border-radius: 12px 12px 0px 0px;
+}
+.items .psub {
+  padding-top: 8px;
+  padding-bottom: 16px;
+  font: normal 16px Noto Sans TC;
+  color: #221E1F;
+  text-align: center;
+}
+.items .pmain {
+  padding-top: 16px;
+  padding-bottom: 8px;
+  font: bold 16px Noto Sans TC;
+  text-align: center;
+  color: #56C4C5;
+}
+.items .wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.items .area {
+  width: 50%;
+  position: relative;
+}
+.items .leftdiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.items .pmainblack {
+  color: #221E1F;
+  text-align: left;
+}
+.items .iconimg {
+  padding: 15px;
+  border-radius: 50px;
+  box-shadow: 0px 2px 10px #dedede;
+}
+.items .pd32 {
+  padding: 32px 32px 32px 32px;
+}
+.items .w166 {
+  width: 166px;
+}
+.items .vertical-align {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.items .ta-left {
+  text-align: left;
+}
+.items button {
+  height: 49px;
+  width: 136px;
+  background-color: #56C4C5;
+  color: white;
+  border: none;
+  border-radius: 27px;
+  font: normal 18px Noto Sans TC;
+}
+.items button:hover {
+  background: #69cbcc;
+}
+.items .commentcard {
+  display: flex;
+}
+.items .commentcard .avatar {
+  position: absolute;
+  top: -48px;
+  left: 32px;
+}
+.items .commentcard .avatar img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+}
+.items .commentcard .starflex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.items .commentcard .starflex .stars {
+  padding-top: 8px;
+  padding-bottom: 16px;
+}
+
+/*items RWD*/
+@media (max-width: 640px) {
+  .character {
+    flex-wrap: wrap;
+  }
+
+  .wrap {
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+  }
+
+  .area {
+    width: 100% !important;
+  }
+
+  .vertical-align {
+    padding: 32px 0px;
+    top: 50%;
+    text-align: center;
+    transform: translateY(0%) !important;
+  }
+  .vertical-align h2 {
+    text-align: center !important;
+  }
+
+  .commentcard {
+    flex-wrap: wrap;
+  }
+  .commentcard .rwddis {
+    display: none;
+  }
+}
+.footer {
+  position: relative;
+  height: 503px;
+  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/53d3c0b0e4d2885789ac1fcb666e427365a39207/chatTalker_images/home_footer.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.footer .end {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+}
+.footer .end button {
+  height: 49px;
+  width: 136px;
+  background-color: #56C4C5;
+  color: white;
+  border: none;
+  border-radius: 27px;
+  font: normal 18px Noto Sans TC;
+}
+.footer .end button:hover {
+  background: #69cbcc;
+}
+
+/*footer RWD*/
+@media (max-width: 640px) {
+  .footer {
+    background-size: cover;
+    background-position: center;
+    height: 461px;
+  }
+
+  .copyright {
+    padding: 16px 0px;
+    background-color: #F5F5F5;
+  }
+  .copyright p {
+    font: normal 16px Noto Sans TC;
+  }
+}
+
+/*# sourceMappingURL=all.css.map */
