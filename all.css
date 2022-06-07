@@ -127,7 +127,7 @@ hr {
   }
   .headerbgc .blueball {
     background-size: 100%;
-    left: 100px;
+    left: -100px;
   }
 
   .nav {
