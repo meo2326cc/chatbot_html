@@ -64,6 +64,11 @@ hr{
     display: inline-block;
 }
 
+.vertical-align{
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
 
 /*RWD*/
 
@@ -296,11 +301,6 @@ hr{
         width: 166px;
     }
     
-    .vertical-align{
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);
-    }
     
     .ta-left{
         text-align: left;
@@ -456,6 +456,25 @@ hr{
 
 }  
 
+
+.gototop{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    background-color: #56c4c5;
+    color: #fff;
+    position: fixed;
+    right: 48px;
+    bottom: 48px;
+    z-index: 999;
+    &:hover{
+            background:lighten(#56C4C5,5%) ;
+        }
+    p{
+        padding-top: 20px;
+    }
+    
+}
 
 /*footer RWD*/
 @media (max-width:640px){

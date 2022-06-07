@@ -59,6 +59,12 @@ hr {
   display: inline-block;
 }
 
+.vertical-align {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 /*RWD*/
 @media (max-width: 640px) {
   h1 {
@@ -224,11 +230,6 @@ hr {
 .items .w166 {
   width: 166px;
 }
-.items .vertical-align {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
 .items .ta-left {
   text-align: left;
 }
@@ -349,6 +350,24 @@ hr {
 }
 .footer .end button:hover {
   background: #69cbcc;
+}
+
+.gototop {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  background-color: #56c4c5;
+  color: #fff;
+  position: fixed;
+  right: 48px;
+  bottom: 48px;
+  z-index: 999;
+}
+.gototop:hover {
+  background: #69cbcc;
+}
+.gototop p {
+  padding-top: 20px;
 }
 
 /*footer RWD*/
