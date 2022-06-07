@@ -125,6 +125,10 @@ hr {
   .headerbgc img {
     width: 131px;
   }
+  .headerbgc .blueball {
+    background-size: 100%;
+    left: 100px;
+  }
 
   .nav {
     background-color: #fff;
